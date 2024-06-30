@@ -110,6 +110,10 @@ app.get("/", (req, res) => {
   res.send("car doctor server is running");
 });
 
+app.get("/lol", (req, res) => {
+  res.send("you are on the lol route. does it work or not?");
+});
+
 app.listen(port, () => {
   console.log(`Server started at  http://localhost:${port}`);
 });
