@@ -7,7 +7,7 @@ require("dotenv").config();
 const app = express();
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://fir-caaac.web.app", "https://fir-caaac.firebaseapp.com"],
     credentials: true,
   })
 );
